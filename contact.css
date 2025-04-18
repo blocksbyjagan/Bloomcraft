@@ -1,0 +1,30 @@
+body {
+    overflow-x: hidden;
+}
+
+
+*{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    
+}
+
+.one {
+    position: relative;
+    background-image: url("FlowerShop/pexels-amina-filkins-5414334.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.one::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.offcanvas {
+    z-index: 1055;
+}

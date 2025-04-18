@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <!-- External CSS -->
+    <!-- Bootstrap and Bootstrap icons -->    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <!-- Bootstrap and Bootstrap icons -->    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <!-- font -->
+    <link rel="stylesheet" href="contact.css">
+    <style>
+        .one{
+            height: 400px;
+        }
+        /* .navbar-toggler {
+  border-color: white;
+} */
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+    </style>
+</head>
+<body>
+    <div class="container-fluid bg-dark one">
+        <nav class="navbar navbar-expand-lg bg-transparent text-white" style="position: relative;">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Flower Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+              <span class="navbar-toggler-icon text-danger"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active text-white" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="shop.html">Shop</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contact</a></li>
+              </ul>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#offcanvasExample" role="button" data-bs-toggle="offcanvas">
+                    <i class="bi bi-cart4 text-white"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    
+        <!-- Offcanvas OUTSIDE of collapse -->
+        <div class="offcanvas offcanvas-end bg-white" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Your Cart</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            Your cart is empty.
+          </div>
+        </div>
+    
+        <section id="hero">
+          <div class="container hero-content text-white text-center container-head pt-lg-5 mt-lg-5">
+            <p class="text-uppercase">Contact Us</p>
+            <h1 class="display-4 fw-bold">Get in Touch with Our Experts Team</h1>
+            <p class="lead">Explore a vibrant tapestry of blooms and arrangements that add color, fragrance, and elegance to your life. Discover the perfect floral expression for every moment and occasion.</p>
+          </div>
+        </section>
+      </div>
+<div class="row m-5">
+    <div class="col-lg-6 ps-0 ms-0">
+        <div class="touch mb-4">
+            <h2>Get In Touch With Us</h2>
+        <small>Share some details here. This is Flexible section where you can share anything you want. It could be details or some information.</small>
+        </div>
+        <div class="d-flex flex-column">
+            <strong>Address</strong>
+            <small>2972 Westheimer Rd. Santa Ana, Illinois 85486</small>
+        </div>
+        <hr>
+        <div class="d-flex flex-row justify-content-between">
+            <div class="col-lg-3">
+                <div class="d-flex flex-column">
+                    <strong>Phone</strong>
+                <small>(+91) 987 654 321</small>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="d-flex flex-column">
+                    <strong>Mail</strong>
+                <small>contact@info.com</small>
+                </div>
+            </div>
+            <!-- <div class="d-flex flex-column">
+                <strong>Phone</strong>
+            <small>(+91) 987 654 321</small>
+            </div>
+            <div class="d-flex flex-column">
+                <strong>E-Mail</strong>
+            <small>info@contact.com</small>
+            </div> -->
+        </div>
+        <hr>
+        <div class="d-flex flex-column">
+            <strong>Social Media</strong>
+            <div class="medias">
+                <i class="bi bi-facebook p-1"></i><i class="bi bi-twitter p-1"></i><i class="bi bi-instagram p-1"></i><i class="bi bi-youtube p-1"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6 pt-4 ps-0 pt-lg-0">
+        <div class="mb-3">
+            <div class="d-flex">
+                <strong for="exampleFormControlInput1" class="form-label">Name</strong>
+                <small class="text-danger ps-1">*</small>
+            </div>
+            <div class="d-flex">
+                <input type="email" class="form-control me-2" id="exampleFormControlInput1">
+                <input type="email" class="form-control" id="exampleFormControlInput1" >
+            </div>
+        </div>
+        <div class="mb-3">
+            <div class="d-flex">
+                <strong for="exampleFormControlInput1" class="form-label">E-Mail</strong>
+                <small class="text-danger ps-1">*</small>
+            </div>    
+                <input type="email" class="form-control" id="exampleFormControlInput1" >
+        </div>
+        <div class="mb-3">
+            <strong for="exampleFormControlTextarea1" class="form-label">Comment or Message</strong>
+            <textarea class="form-control mb-2" id="exampleFormControlTextarea1" rows="3"></textarea>
+            <button class="btn btn-sm btn-danger" type="submit">SUBMIT</button>
+        </div>
+    </div>
+</div>
+<div class="row m-5">
+    <div class="col-lg-6">
+        <h2>FAQs</h2>
+        <small>Share some details here. This is Flexible section where you can share anything you want. It could be details or some information.</small>
+    </div>
+    <div class="col-lg-6 pt-3 pt-0">
+        <h6>How do I order flowers and choose delivery options?</h6>
+        <small>Simply browse our shop, select your bouquet, and follow the checkout process. You can choose the delivery date and time during checkout.</small>
+        <hr>
+        <h6>What areas do you deliver to, and can I track my delivery?</h6>
+        <small>We deliver to [Service Areas], and you’ll receive a tracking number once your order is dispatched.</small>
+        <hr>
+        <h6>How can I make my flowers last longer, and what if they arrive damaged?</h6>
+        <small>For longer-lasting blooms, trim stems, change water, and keep in a cool place. Contact us if your flowers arrive damaged for a replacement or refund.</small>
+        <hr>
+        <h6>What is your return policy and cancellation policy?</h6>
+        <small>Contact us within [X days] for returns or exchanges. Orders can be canceled up to [X hours/days] before the scheduled delivery date.</small>
+    </div>
+</div>
+<div class="container-fluid bg-dark" style="padding-top: 80px; margin-top: 50px;">
+    <div class="row">
+        <div class="col-lg-6 ps-lg-5">
+            <img src="FlowerShop/pexels-amina-filkins-5414010.jpg" class="w-100 rounded-pill rounded-bottom-0 " style="height: 550px;" alt="">
+        </div>
+        <div class="col-lg-6 text-white d-flex flex-column specialoffer">
+            <p class="text-danger">CALL TO ACTION</p>
+            <h1>Explore Our Exquisite Floral Collections & Shop Now for the Perfect Blooms</h1>
+            <button class="btn btn-danger" style="width: 150px;">SHOP NOW</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid py-lg-5 foot">
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <h6>Flower Shop</h6>
+            <small>Welcome to the world of Florist, where flowers come to life with love and creativity. Discover our story, our passion for flowers, and our commitment to making every moment memorable.</small>
+        </div>
+        <div class="col-12 col-lg-3 pt-3 pt-lg-0">
+            <h6>Links</h6>
+            <div class=" d-flex flex-column ">
+                <div class="links">
+                <a href="index.html" class="text-dark px-2 px-lg-0" style="text-decoration: none;">Home</a>
+                <a href="about.html" class="text-dark px-2 px-lg-0" style="text-decoration: none;">About</a>
+                <a href="shop.html" class="text-dark px-2 px-lg-0" style="text-decoration: none;">Shop</a>
+                <a href="contact.html" class="text-dark px-2 px-lg-0" style="text-decoration: none;">Contact</a></div>
+            </div>
+        </div>
+        <div class="col-lg-3 contact pt-3 pt-lg-0">
+            <h6>Contact Us</h6>
+            <div class="contact d-flex flex-column">
+            <small>Address: 13 Fifth Avenue, New York 101660</small>
+            <small>Email: contact@info.com</small>
+            <small>Phone: +91 987 654 321</small></div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container-fluid d-flex justify-content-between px-4">
+    <p>Copyright © 2025 Flower Shop</p>
+    <div class="medias">
+        <i class="bi bi-facebook p-1"></i><i class="bi bi-twitter p-1"></i><i class="bi bi-instagram p-1"></i><i class="bi bi-youtube p-1"></i>
+    </div>
+</div>
+</body>
+</html>

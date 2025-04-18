@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+
+*{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+
+.one {
+    position: relative;
+    background-image: url("FlowerShop/pexels-amina-filkins-5414334.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.one::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.head-content{
+    width: 150px;
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.container-head{
+    position: relative;
+    
+}
+
+.row1{
+    background-color: pink;
+    position: relative;
+}
+
+.row1::before{
+    position: absolute;
+    content: '';
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+    .responsive-column {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    @media (max-width: 768px) {
+        .responsive-column {
+            padding-top: 20px;
+            text-align: center;
+            align-items: center;
+        }
+    }
+
+    h2, h1, p {
+        word-wrap: break-word;
+      }
+
+      .specialoffer{
+        padding-top: 200px;
+      }
+
+      @media(max-width:768px){
+        .specialoffer{
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            align-items: center;
+        }
+      }
+
+      .links{
+        display: flex;
+        flex-direction: column;
+      }
+
+      @media(max-width:768px){
+        .foot{
+            text-align: center;
+            padding-top: 20px;
+        }
+        .links{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding: 3px;
+        }
+      }
+
+/* flower 1 https://wallpaperaccess.com/full/3572510.jpg */
+/* floer 2 https://th.bing.com/th/id/OIP.VMd-vjZ1Cy6xv8s4dpfMGAHaLH?rs=1&pid=ImgDetMain */
