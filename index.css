@@ -104,5 +104,65 @@ body {
         }
       }
 
+      /* @media (max-width: 991.98px) {
+        .navbar-collapse {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background-color: white;
+          z-index: 1000;
+          padding: 1rem;
+        }
+      
+        .navbar-collapse .nav-link {
+          color: black !important;
+        }
+
+        .navbar .bi-cart4 {
+            color: black !important;
+          }
+      }
+       */
+
+       @media (max-width: 991.98px) {
+        .navbar-collapse {
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background-color: rgba(255, 255, 255, 0.3); /* semi-transparent */
+          backdrop-filter: blur(10px); /* the blur */
+          -webkit-backdrop-filter: blur(10px); /* Safari support */
+          z-index: 1000;
+          padding: 1rem;
+          border-radius: 0 0 10px 10px;
+        }
+      
+        .navbar-collapse .nav-link {
+          color: black !important;
+        }
+      
+        .navbar .bi-cart4 {
+          color: black !important;
+        }
+      }
+      
+      .my-flower-img {
+        height: 250px;
+        object-fit: cover;
+      }
+      
+      .my-flower-img-sm {
+        height: 160px !important;
+      }
+/* 
+      @media(max-width:768){
+        .about-florist-index{
+            height: 1cm;
+        }
+      } */
+      
+
 /* flower 1 https://wallpaperaccess.com/full/3572510.jpg */
 /* floer 2 https://th.bing.com/th/id/OIP.VMd-vjZ1Cy6xv8s4dpfMGAHaLH?rs=1&pid=ImgDetMain */

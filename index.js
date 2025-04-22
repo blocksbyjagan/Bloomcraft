@@ -23,8 +23,10 @@ const flowers=[
     {image:"FlowerShop/pexels-shivm96-31639896.jpg",title:"Tulip Flower",original:"$129.00",offer:"$99.00"},
 ]
 
+const isSmallDevice = window.innerWidth <= 768;
+
 var flowerrate=flowers.map(flowervalue =>`<div class="col-lg-4 col-6" style="position: relative;">
-                <img src="${flowervalue.image}" class="img-fluid w-100"  alt="" style="height: 250px; object-fit: cover;">
+                <img src="${flowervalue.image}" class="img-fluid w-100 image-size"  alt="" style="height: 250px; object-fit: cover;">
                 <div class="bad" style="position: absolute; top: 25px; left: 35px;">
                     <span class="badge rounded-pill text-bg-light p-2">Sale</span>
                 </div>
